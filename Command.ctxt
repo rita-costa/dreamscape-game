@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "Dreamscape"\ application.\ \r\n\ "Dreamscape"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ This\ class\ holds\ information\ about\ a\ command\ that\ was\ issued\ by\ the\ user.\r\n\ A\ command\ currently\ consists\ of\ a\ list\ of\ strings\:\ a\ command\ word\ and\ various\ other\r\n\ words\ (for\ example,\ if\ the\ command\ was\ "take\ map",\ then\ there\ are\ two\ strings\:\ "take"\ and\ "map"\r\n\ if\ the\ command\ is\ "give\ bread\ frogbert"\ there\ are\ three\ strings\:\ "give",\ "bread",\ "frogbert").\r\n\ \r\n\ The\ way\ this\ is\ used\ is\:\ Commands\ are\ already\ checked\ for\ being\ valid\r\n\ command\ words.\ If\ the\ user\ entered\ an\ invalid\ command\ (a\ word\ that\ is\ not\r\n\ known)\ then\ the\ command\ word\ is\ <null>.\r\n\r\n\ If\ the\ command\ had\ only\ one\ word,\ then\ the\ second\ word\ is\ <null>.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling,\ David\ J.\ Barnes,\ and\ Rita\ Costa\ (k19005287)\r\n\ @version\ 2019.11.28\r\n
+comment1.params=words
+comment1.target=Command(java.util.ArrayList)
+comment1.text=\r\n\ Create\ a\ command\ object.\ The\ command\ word\ is\ set\ to\ the\ first\ word\ \r\n\ of\ the\ list\ given\ (ie\ word\ at\ index\ 0).\r\n\ \r\n\ @param\ An\ ArrayList\ of\ words\ that\ the\ command\ consists\ of.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\r\n\ Return\ the\ command\ word\ (the\ first\ word)\ of\ this\ command.\ If\ the\r\n\ command\ was\ not\ understood,\ the\ result\ is\ null.\r\n\ @return\ The\ command\ word.\r\n
+comment3.params=wordNumber
+comment3.target=java.lang.String\ getWord(int)
+comment3.text=\r\n\ @param\ Position\ of\ the\ desired\ word\ (second\ word\ \=\ 2,\ third\ word\ \=\ 3,\ etc.)\r\n\ @return\ The\ word\ at\ the\ specified\ position\ in\ the\ list\ of\ words\ making\ up\ the\ command.\r\n
+comment4.params=
+comment4.target=boolean\ isUnknown()
+comment4.text=\r\n\ @return\ true\ if\ this\ command\ was\ not\ understood.\r\n
+comment5.params=wordNumber
+comment5.target=boolean\ hasWord(int)
+comment5.text=\r\n\ @return\ true\ if\ the\ command\ has\ a\ second\ word.\r\n
+numComments=6

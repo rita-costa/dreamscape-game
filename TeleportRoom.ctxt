@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TeleportRoom
+comment0.text=\r\n\ Extended\ from\ the\ Room\ class.\r\n\ This\ is\ a\ room\ that\ teleports\ the\ player\ to\ another\ random\ room.\r\n\ \r\n\ It\ is\ a\ child\ class\ because\ it\ is\ useful\ to\ check\ if\ it\ is\ a\ teleportation\ room\ by\r\n\ checking\ if\ the\ room\ is\ an\ instance\ of\ a\ TeleportRoom.\r\n\r\n\ @author\ Rita\ Costa\ (k19005287)\r\n\ @version\ 2019.11.23\r\n
+comment1.params=description
+comment1.target=TeleportRoom(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ room\ similar\ to\ one\ from\ the\ Room\ class\r\n
+comment2.params=allRooms
+comment2.target=Room\ teleportTo(java.util.ArrayList)
+comment2.text=\r\n\ Returns\ a\ random\ room\ in\ the\ map\ that\ player\ will\ be\ transported\ to.\r\n\ \r\n\ @param\ A\ list\ of\ all\ the\ rooms\ present\ in\ the\ current\ game.\r\n
+numComments=3

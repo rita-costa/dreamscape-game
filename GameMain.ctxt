@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GameMain
+comment0.text=\r\n\ This\ class\ is\ used\ with\ the\ 'Dreamscape'\ project.\r\n\ It\ is\ where\ the\ main\ method\ is,\ which\ creates\ a\ Game\ and\ runs\ the\ play\ method\r\n\ (starts\ the\ game).\r\n\r\n\ @author\ Rita\ Costa\ (k19005287)\r\n\ @version\ 2019.11.28\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Creates\ a\ game\ and\ calls\ the\ play\ method\ to\ start.\r\n
+numComments=2

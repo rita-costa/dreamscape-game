@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=KeyItem
+comment0.text=\r\n\ The\ KeyItem\ class\ is\ an\ extension\ of\ the\ Item\ class,\ used\ in\ the\ \r\n\ "Dreamscape"\ project.\ \r\n\ This\ item\ can\ be\ used\ with\ another\ item\ in\ the\ room\ to\ 'unlock'\ \r\n\ something\ and\ reveal\ hidden\ items.\ (such\ as\ opening\ a\ safe\ with\ a\ key)\r\n\r\n\ @author\ Rita\ Costa\ (k19005287)\r\n\ @version\ 2019/11/27\r\n
+comment1.params=description\ name\ weight
+comment1.target=KeyItem(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ UsableItem\r\n
+comment2.params=item
+comment2.target=void\ setItemUsedOn(Item)
+comment2.text=\r\n\ Sets\ item\ that\ this\ key\ item\ is\ successfully\ used\ on\r\n
+comment3.params=message
+comment3.target=void\ setSuccessMessage(java.lang.String)
+comment3.text=\r\n\ Sets\ a\ success\ message\ if\ use\ command\ successful.\r\n
+comment4.params=items
+comment4.target=void\ setItemsToReveal(java.util.ArrayList)
+comment4.text=\r\n\ Sets\ a\ list\ of\ items\ to\ be\ items\ that\ are\ revealed\ if\ use\ command\ successful\r\n
+comment5.params=room
+comment5.target=void\ revealItems(Room)
+comment5.text=\r\n\ Adds\ items\ to\ be\ revealed\ to\ the\ current\ room\ if\ this\ hasn't\ been\ done\ yet.\r\n\r\n\ @param\ \ Current\ room.\r\n
+comment6.params=targetItemName\ room
+comment6.target=java.lang.String\ useOn(java.lang.String,\ Room)
+comment6.text=\r\n\ Called\ when\ "use"\ command\ supposedly\ involves\ using\ 2\ items\ together\r\n\ Checks\ if\ this\ is\ possible\ and\ if\ so,\ reveals\ previously\ hidden\ items\ to\ player\r\n\r\n\ @param\ \ Name\ of\ item\ to\ be\ used\ on.\r\n\ @param\ \ Current\ room.\r\n
+numComments=7
